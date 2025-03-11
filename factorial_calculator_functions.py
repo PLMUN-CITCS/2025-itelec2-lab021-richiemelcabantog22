@@ -3,8 +3,7 @@ def get_non_negative_integer():
         user_input = input("Please enter a non-negative integer: ")
         if user_input.isdigit():
             return int(user_input)
-        else:
-            print("Invalid input. Please enter a valid non-negative integer.")
+        print("Invalid input. Please enter a valid non-negative integer.")
 
 def calculate_factorial(n):
     if n == 0:
